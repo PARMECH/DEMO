@@ -17,7 +17,7 @@ exports.HappyHr = async (req, res) => {
       });
     }
   } catch (err) {
-    console.log(err, "error at line no. 33 in 2fagoogle.js")
+    console.log(err, "error")
   }
 }
 
