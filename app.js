@@ -2,6 +2,7 @@ const express = require("express"),
       app = express(),
       port = 3000,
       mongoose = require("mongoose"),
+ const bodyPar = require("body-parser");
   
 
 app.use(cors({
