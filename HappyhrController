@@ -1,0 +1,24 @@
+const HappyHrSchema = require('../HappyHrSchema') // Path of the Model Schem file
+
+
+
+exports.HappyHr = async (req, res) => {
+  try {
+
+    // COde for API  Purpose
+    
+    
+    
+      return res.status(200).send({
+        statuscode: 200,
+        status: "OK",
+        message: "Success",
+        data: {},
+      });
+    }
+  } catch (err) {
+    console.log(err, "error at line no. 33 in 2fagoogle.js")
+  }
+}
+
+
