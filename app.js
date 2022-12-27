@@ -1,6 +1,6 @@
 const express = require("express"),
       app = express(),
-      port = process.env.PORT || 4000,
+      port = 3000,
       mongoose = require("mongoose"),
   
 
